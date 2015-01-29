@@ -8,6 +8,7 @@
 
 body {
 	background-color: #CEDDBA;
+	background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=ceddbaff&noise=949294&density=15&opacity=15");
 }
  
 .page_wrapper {
@@ -62,6 +63,7 @@ html { font-size: 100%; }
  button {
  	width: 10%;
  	padding: 1%;
+ 	background-color: #93A2B5;
 
  }
 
