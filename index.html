@@ -23,13 +23,23 @@
     	<h1>Your Most Useful Stuff Ever!</h1>
       <h4>(No really, it's true.)</h4>
 
-        <input type="text" placeholder="Your super useful note" ng-model="newName" />
+        <div class="addStuff">
+          <input type="text" placeholder="Your super useful note goes here..." ng-model="newName" />
 
-        <button ng-click="addName()">Add Stuff</button>
+          <button ng-click="addName()">Add Stuff</button>
+        </div>
+
+        <div class="addedContent">
 
           <p ng-repeat="n in names">{{ n.name }}</p>
 
+        </div>
+
     </div>
+
+      <div class="">
+        <p class="copyright">Made with &hearts; and intention by Lauren Pawell.</p>
+      </div>
 
   </body>
 

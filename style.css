@@ -13,7 +13,7 @@ body {
  
 .page_wrapper {
  	width: 90%;
- 	margin: 5% auto;
+ 	margin: 4% auto 5% auto;
  	background-color: #F7F6A8;
  	-webkit-box-shadow: 10px 10px 28px 0px rgba(115,114,115,1);
 	-moz-box-shadow: 10px 10px 28px 0px rgba(115,114,115,1);
@@ -52,18 +52,46 @@ html { font-size: 100%; }
  	font-style: italic;
  }
 
+ .copyright {
+ 	font-size: 70%;
+ 	text-align: center;
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	border: none;
+ }
+
  /* --- Input & Button Styling --- */
 
+ .addStuff {
+ 	width: 80%;
+ 	margin: 0 auto;
+ 	position: relative;
+ }
+
  input {
- 	width: 30%;
+ 	width: 80%;
  	margin: 0 auto;
  	padding: 1%;
+ 	font-size: 80%;
+ 	float: left;
  }
 
  button {
- 	width: 10%;
+ 	width: 20%;
  	padding: 1%;
- 	background-color: #93A2B5;
+ 	background-color: #BAB8B2;
+ 	border: solid #BAB8B2 2px;
+ 	font-family: "cubano-sharp",sans-serif;
+ 	color: #482727;
+ 	font-size: 80%;
+ 	float: left;
+
+ }
+
+ button:hover {
+ 	background-color: #482727;
+ 	color: #FFFFFF;
+ 	border: solid #482727 2px;
 
  }
 
@@ -73,4 +101,9 @@ p {
  	border-bottom: 1px solid #482727;
  	padding: 1%;
  }
+
+.addedContent {
+	clear: both;
+	margin-top: 10%;
+}
 
