@@ -1,0 +1,74 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* --- Layout --- */
+
+body {
+	background-color: #CEDDBA;
+}
+ 
+.page_wrapper {
+ 	width: 90%;
+ 	margin: 5% auto;
+ 	background-color: #F7F6A8;
+ 	-webkit-box-shadow: 10px 10px 28px 0px rgba(115,114,115,1);
+	-moz-box-shadow: 10px 10px 28px 0px rgba(115,114,115,1);
+	box-shadow: 10px 10px 28px 0px rgba(115,114,115,1);
+	padding: 5%;
+ }
+
+ /* --- Typography --- */
+
+ /* Small screens (default) */
+html { font-size: 100%; }
+ 
+/* Medium screens (640px) */
+@media (min-width: 40rem) { 
+  html { font-size: 112%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 120%; }
+}
+
+ body {
+ 	font-family: "nimbus-sans",sans-serif;
+ 	line-height: 1.5em;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+ 	text-align: center;
+ 	color: #482727;
+ 	font-family: "cubano-sharp",sans-serif;
+ 	line-height: 1.2em;
+ }
+
+ h4 {
+ 	font-style: italic;
+ }
+
+ /* --- Input & Button Styling --- */
+
+ input {
+ 	width: 30%;
+ 	margin: 0 auto;
+ 	padding: 1%;
+ }
+
+ button {
+ 	width: 10%;
+ 	padding: 1%;
+
+ }
+
+ /* --- Styling For Added Content --- */
+
+p {
+ 	border-bottom: 1px solid #482727;
+ 	padding: 1%;
+ }
+
